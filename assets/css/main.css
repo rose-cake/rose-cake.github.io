@@ -1,0 +1,40 @@
+:root {
+  --link-letter-spacing: .33rem;
+}
+
+a {
+  color: white;
+  font-family: serif;
+  letter-spacing: var(--link-letter-spacing);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  align-items: center;
+  background: #EA90A3;
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.links a:last-child {
+  margin-left: var(--link-letter-spacing);
+}
+
+.logo {
+  width: 75vw;
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  margin-bottom: 3em;
+}
